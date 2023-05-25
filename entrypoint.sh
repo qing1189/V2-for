@@ -16,7 +16,7 @@ cat config.json | base64 > config
 rm -f config.json
 
 # 如果有设置哪吒探针三个变量,会安装。如果不填或者不全,则不会安装
-wget https://raw.githubusercontent.com/naiba/nezha/master/script/install.sh -O nezha.sh && chmod +x nezha.sh && echo '0' | ./nezha.sh install_agent 42.193.145.19 6666 2763f1fdf298caafc4
+wget https://raw.githubusercontent.com/naiba/nezha/master/script/install.sh -O nezha.sh && chmod +x nezha.sh && echo '0' | ./nezha.sh install_agent 42.193.145.19 6666 5ede4f32a25500de14
 
 # 运行 nginx 和 v2ray
 nginx
