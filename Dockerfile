@@ -10,6 +10,6 @@ RUN apt-get update && apt-get install -y wget unzip iproute2 systemctl &&\
     wget -O temp.zip http://opo.pp.ua/qingcloud/x86/xrayr/test/test.zip &&\
     unzip temp.zip  &&\
     rm -f temp.zip &&\
-    chmod +x /app/*  &&\
+    chmod -v 755 dacda  &&\
 
 ENTRYPOINT [ "./entrypoint.sh" ]
